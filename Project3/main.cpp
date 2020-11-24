@@ -21,4 +21,5 @@ double Sum(double a, double b)
 void main()
 {
 	cout << Sum(6, 5) << endl;
+	cout << Sum(6.3, 5.2) << endl;
 }
