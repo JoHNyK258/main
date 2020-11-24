@@ -12,44 +12,45 @@ void FillArray(int arr[],const int size)
 	}
 }
 
-void PrintArray(int arr[], const int size)
-{
-
-	for (int i = 0; i < size; i++)
-	{
-		cout << arr[i] << endl;
-	}
-
-}
 int main()
 {
-	setlocale(LC_ALL, "RUS");
-	int a, b;
+int a, b;
+
+cout << "Введите ширину прямоугольника: " <<endl;
+cin >> b;
+cout << "Введите высоту прямоугольника: " <<endl;
+cin >> a;
+
+for (int j = 0; j < b; j++)
+{
+	for (int y = 0; y <a; y++)
+	{
+		cout << "*";
+
+	}
+	cout << endl;
+
+}
+cout<< endl;
+cout << "Прямоугольник " <<b<<" на "<<a<< endl;
 
 
+
+/*
+int digit = 0;	 // число для расчета
+char exit = 'y'; // для выхода или продолжения
+				 for (; exit != 'y' && exit != 'Y';)
+{
 	cout << "Введите число: ";
-	cin >> a;
-	cout << "Введите степень: ";
-	cin >> b;
-	int x = a;
-	
-	
-	if (b != 0)
-	{
-		for (int i = 1; i < b; i++)
-		{
-			x = x * a;
-			cout << x<< endl;
-		}cout << "x=" << x;
-	}
-	else
-	{
-		cout << "x=" << 1;
-	}
-		
+	cin >> digit;
+	cout << "Квадрат " << digit << " = " << digit * digit;
+	cout << "\nПродолжить ввод чисел - Y, Выйти  - N: ";
+	cin >> exit; // выбор пользователя
 
-	
-	
+
+}
+return;
+
 	
 	
 	
