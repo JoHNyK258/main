@@ -19,5 +19,5 @@ double Sum(double a, double b)
 
 void main()
 {
-	cout << Sum(5, 6) << endl;
+	cout << Sum(6, 5) << endl;
 }
