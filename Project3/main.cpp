@@ -7,7 +7,10 @@
 
 using namespace std;
 
-
+double Sum(double a, double b, double c)
+{
+	return a + b +c;
+}
 
 int Sum(int a, int b)
 {
