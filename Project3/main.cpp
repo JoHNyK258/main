@@ -17,9 +17,15 @@ double Sum(double a, double b)
 {
 	return a + b;
 }
+int Sum(int a, int b, int c)
+{
+	return a + b + c;
 
+}
 
 void main()
 {
 	cout << Sum(6, 5) << endl;
+	cout << Sum(6.3, 5.2) << endl;
+	cout << Sum(6, 5, 8) << endl;
 }
