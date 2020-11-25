@@ -32,4 +32,5 @@ void main()
 	cout << Sum(6, 5) << endl;
 	cout << Sum(6.3, 5.2) << endl;
 	cout << Sum(6, 5, 8) << endl;
+	cout << Sum(6.3, 5.5, 8.8) << endl;
 }
