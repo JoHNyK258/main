@@ -209,7 +209,7 @@ int main()
 	const int N=5;
 	int arr[N]{ 22,5,65,987,45 };
 
-		cout << N[arr] << endl;
+		cout << *(arr + 4) << endl;
 
 	
 	
