@@ -208,10 +208,9 @@ int main()
 	setlocale(LC_ALL, "ru");
 	const int N=5;
 	int arr[N]{ 22,5,65,987,45 };
-	for (int i = 0; i < N; i++)
-	{
-		cout << (arr + i) << endl;
-	}
+
+		cout << N[arr] << endl;
+
 	
 	
 	
